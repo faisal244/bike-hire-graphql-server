@@ -3,7 +3,7 @@ const { Schema, model } = require("mongoose");
 const specificationsSchema = require("./Specifications");
 
 const bikeSchema = {
-	type: {
+	category: {
 		type: String,
 		default: "Road",
 		enum: ["Mountain", "Racing", "Electric", "Road"],
